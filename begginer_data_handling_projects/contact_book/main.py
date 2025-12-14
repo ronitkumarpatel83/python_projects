@@ -7,7 +7,7 @@ class ContactBook:
     def add_contact(self):
         
         with open(self.path, 'a') as file:
-
+            pass
 
     def search_contact(self):
         pass
@@ -17,3 +17,11 @@ class ContactBook:
 
     def view_all_contact(self):
         pass
+
+
+if __name__ == "__main__":
+    print("="*120)
+    print("="*120)
+    print("="*52, " Contact Book ", "="*52)
+    print("="*120)
+    print("="*120)
