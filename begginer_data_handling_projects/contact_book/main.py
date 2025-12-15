@@ -5,9 +5,12 @@ class ContactBook:
         self.path = r"begginer_data_handling_projects\contact_book\contacts.json"
 
     def add_contact(self):
+        name = input("Enter your name :")
+        contact = input("Enter your phone no.: ")
+        email = input("Enter your email : ")
         
         with open(self.path, 'a') as file:
-            pass
+            json.dump(name, contact, email)
 
     def search_contact(self):
         pass
